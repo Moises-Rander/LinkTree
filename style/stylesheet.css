@@ -54,12 +54,6 @@ a:visited {
     box-shadow: 2px 2px 8px #ffffff;
 }
 
-.card:hover {
-    border-color: #47a3e9;
-    color: #47a3e9;
-    box-shadow: 2px 2px 8px #47a3e9;
-}
-
 .card img {
     width: 44px;
     height: 44px;
