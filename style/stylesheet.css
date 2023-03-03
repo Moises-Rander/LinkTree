@@ -1,5 +1,5 @@
 body {
-    background-image: url(/LinkTree/imgs/background.png);
+    background-image: url(../imgs/background.png);
 }
 
 #divIcon {
@@ -22,7 +22,7 @@ body {
     font-weight: bold;
     font-size: 20px;
     line-height: 1.6;
-    list-style-image: url(../imgs/favicon.ico);
+    list-style-image: url(../imgs/teeth.ico);
     text-shadow: 2px 2px 8px #3077b1;
 }
 
