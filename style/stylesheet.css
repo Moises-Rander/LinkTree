@@ -1,0 +1,78 @@
+body {
+    background-image: url(/LinkTree/imgs/background.png);
+}
+
+#divIcon {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 2vh;
+}
+
+#divIcon img {
+    border-radius: 50%;
+    width: 35vw;
+    height: 35vw;
+    box-shadow: 2px 2px 8px #c6e6ff;
+}
+
+#divBio ul {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.6;
+    list-style-image: url(../imgs/favicon.ico);
+    text-shadow: 2px 2px 8px #3077b1;
+}
+
+#divCards {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+.card {
+    width: 80vw;
+    height: 7vh;
+    border: 3px solid white;
+    border-radius: 50px;
+    margin-top: 20px;
+    display: flex;
+    box-shadow: 2px 2px 8px #ffffff;
+}
+
+.card:hover {
+    border-color: #47a3e9;
+    color: #47a3e9;
+    box-shadow: 2px 2px 8px #47a3e9;
+}
+
+.card img {
+    width: 44px;
+    height: 44px;
+    margin: 10px 20px 10px 15px;
+}
+
+#agendamentos {
+    margin-top: 7vh;
+    text-align: center;
+    line-height: 1.6;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px #3077b1;
+}
