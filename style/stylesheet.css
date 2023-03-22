@@ -88,3 +88,8 @@ a:visited {
     }
 
 }
+@media (max-width: 400px) {
+    #divCards {
+        font-size: 16px;
+    }
+}
