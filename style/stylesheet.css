@@ -9,10 +9,15 @@ body {
     padding-top: 2vh;
 }
 
+#divBio {
+    display: flex;
+    justify-content: center;
+}
+
 #divIcon img {
     border-radius: 50%;
-    width: 35vw;
-    height: 35vw;
+    max-width: 35vw;
+    max-height: 35vw;
     box-shadow: 2px 2px 8px #c6e6ff;
 }
 
@@ -75,4 +80,11 @@ a:visited {
 
 #agendamentos:link {
     color: white;
+}
+
+@media (min-width: 500px) {
+    .card {
+        width: 400px;
+    }
+
 }
